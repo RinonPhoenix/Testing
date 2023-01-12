@@ -69,7 +69,7 @@ body {
 .pyro {
     background-color: #870900;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -79,7 +79,7 @@ body {
 .hydro {
     background-color: #004761;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -89,7 +89,7 @@ body {
 .anemo {
     background-color: #006142;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -99,7 +99,7 @@ body {
 .electro {
     background-color: #510061;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -109,7 +109,7 @@ body {
 .dendro {
     background-color: #175e01;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -119,7 +119,7 @@ body {
 .cryo {
     background-color: #006a87;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -129,7 +129,7 @@ body {
 .geo {
     background-color: #754301;
     filter:saturate(20%);
-    background-image:url("images/Banner");
+    background-image:url("/images/Banner.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
