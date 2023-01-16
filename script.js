@@ -29,31 +29,31 @@ function openPage(div){
     const timeout3 = setTimeout(() => {
         if (div.classList.contains('pyro')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("pyro"));
         }
         if (div.classList.contains('hydro')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("hydro"));
         }
         if (div.classList.contains('anemo')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("anemo"));
         }
         if (div.classList.contains('electro')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("electro"));
         }
         if (div.classList.contains('dendro')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("dendro"));
         }
         if (div.classList.contains('cryo')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("cryo"));
         }
         if (div.classList.contains('geo')) {
             window.location = 
-            "http://example.org/"
+            "character.html?data=" + btoa(JSON.stringify("geo"));
         }
         
     }, 2000);
