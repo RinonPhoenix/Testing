@@ -10,25 +10,64 @@
     body {
         height: 100vh;
         width: 100vw;
-        background-color: #556655;
+        background-color: #adadad;
         margin: 0rem;
-        overflow:hidden;
+        overflow-x:hidden;
+        scrollbar-width: 0;
 
         font-family: 'Catamaran';
         color: white;
+        display: flex;
+        flex-direction: column;
     }
     .navbar {
-        display: fixed;
-        height: 10%;
+        align-self: flex-start;
+        position: fixed;
+        height: 8%;
         width: 100vw;
+        background-color: #999999;
+        
     }
     .logo {
         aspect-ratio: 1;
+        height: 100%;
+    }
+    .mainbody {
+        padding-top: 8%;
+        display:flex;
+        align-items: center;justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contentbox {
+        background-color: blue;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+        width: 31%;
+        margin: 1%;
+        display: flex;align-items: center;justify-content: center;
     }
 </style>
 <body>
     <div class="navbar">
-        <div class="logo"></div>
+        <div class="logo"><img src="/images/Colourless2.png" style="height:100%; width:100%;"></div>
     </div>
+    <div class="mainbody">
+        <div class="contentbox" onclick="'codex.colourless.org'">A</div>
+        <div class="contentbox">B</div>
+        <div class="contentbox">C</div>
+        <div class="contentbox">D</div>
+        <div class="contentbox">E</div>
+        <div class="contentbox">F</div>
+        <div class="contentbox">G</div>
+        <div class="contentbox">H</div>
+        <div class="contentbox">I</div>
+        <div class="contentbox">J</div>
+    </div>
+    <script>
+        function goToPage(pageURL){
+            window.location = pageURL;
+        }
+    </script>
 </body>
 </html>
