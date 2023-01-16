@@ -339,8 +339,8 @@ function nextChar(){
 }
 
 function changeData(index){
-  changePortrait("/images/characters/" + dict[index].name);
-  changeElement("/images/Element_" + dict[index].element.charAt(0).toUpperCase() + dict[index].element.slice(1));
+  changePortrait("/images/characters/" + dict[index].name + ".png");
+  changeElement("/images/Element_" + dict[index].element.charAt(0).toUpperCase() + dict[index].element.slice(1) + ".png");
   changeName(dict[index].fancy_name);
   changeStars(stars,star_svg, dict[index].star_count);
 }
