@@ -1,42 +1,74 @@
-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-<html>
-  <head>
-    <title>My Website</title>
-    <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  
-  <body> 
-    <div id="main">
-        <div class="col pyro" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Pyro.png">
-        </div>
+<style>
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #adadad;
+        margin: 0rem;
+        overflow-x:hidden;
+        scrollbar-width: 0;
 
-        <div class="col hydro" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Hydro.png"> 
-        </div>
-
-        <div class="col anemo" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Anemo.png"> 
-        </div>
-
-        <div class="col electro" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Electro.png"> 
-        </div>
-
-        <div class="col dendro" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Dendro.png"> 
-        </div>
-
-        <div class="col cryo" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Cryo.png"> 
-        </div>
+        font-family: 'Catamaran';
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar {
+        align-self: flex-start;
+        position: fixed;
+        height: 8%;
+        width: 100vw;
+        background-color: #999999;
         
-        <div class="col geo" onclick="openPage(this)"> 
-          <img class="element" src="/images/Element_Geo.png"> 
-        </div>
+    }
+    .logo {
+        aspect-ratio: 1;
+        height: 100%;
+    }
+    .mainbody {
+        padding-top: 8%;
+        display:flex;
+        align-items: center;justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contentbox {
+        background-color: blue;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+        width: 31%;
+        margin: 1%;
+        display: flex;align-items: center;justify-content: center;
+    }
+
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="/images/Colourless2.png" style="height:100%; width:100%;"></div>
     </div>
-    <script src="script.js"></script>
-  </body>
+    <div class="mainbody">
+        <div class="contentbox" style="background-image:url(/images/genshin_banner.png); background-size:cover; background-position: center;" onclick="goToPage('genshin/')"></div>
+        <div class="contentbox">B</div>
+        <div class="contentbox">C</div>
+        <div class="contentbox">D</div>
+        <div class="contentbox">E</div>
+        <div class="contentbox">F</div>
+        <div class="contentbox">G</div>
+        <div class="contentbox">H</div>
+        <div class="contentbox">I</div>
+        <div class="contentbox">J</div>
+    </div>
+    <script>
+        function goToPage(pageURL){
+            window.location = pageURL;
+        }
+    </script>
+</body>
 </html>
