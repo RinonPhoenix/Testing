@@ -29,31 +29,31 @@ function openPage(div){
     const timeout3 = setTimeout(() => {
         if (div.classList.contains('pyro')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("pyro"));
+            "character?data=" + btoa(JSON.stringify("pyro"));
         }
         if (div.classList.contains('hydro')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("hydro"));
+            "character?data=" + btoa(JSON.stringify("hydro"));
         }
         if (div.classList.contains('anemo')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("anemo"));
+            "character?data=" + btoa(JSON.stringify("anemo"));
         }
         if (div.classList.contains('electro')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("electro"));
+            "character?data=" + btoa(JSON.stringify("electro"));
         }
         if (div.classList.contains('dendro')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("dendro"));
+            "character?data=" + btoa(JSON.stringify("dendro"));
         }
         if (div.classList.contains('cryo')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("cryo"));
+            "character?data=" + btoa(JSON.stringify("cryo"));
         }
         if (div.classList.contains('geo')) {
             window.location = 
-            "character.html?data=" + btoa(JSON.stringify("geo"));
+            "character?data=" + btoa(JSON.stringify("geo"));
         }
         
     }, 2000);
