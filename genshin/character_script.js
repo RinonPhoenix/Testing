@@ -365,15 +365,15 @@ function openMenu(){
 
 function openElements(){
   window.location = 
-            "/genshin/index.html";
+            "/genshin/index";
 }
 
 function openCharacters(){
   window.location = 
-  "/genshin/character.html?data=" + btoa(JSON.stringify("all"));
+  "/genshin/character?data=" + btoa(JSON.stringify("all"));
 }
 
 function openMissing(){
   window.location = 
-  "/genshin/404missing.html";
+  "/genshin/404missing";
 }
